@@ -114,4 +114,7 @@ noneqLemma = λ eq → (transport {ℕ} {helper} {1} {0} (eq) *)
         helper : ℕ → 𝒰
         helper zero = 𝟘
         helper (suc n) = 𝟙
+
+noneqLemma' : 1 ≢ 0
+noneqLemma' = λ ()
     
